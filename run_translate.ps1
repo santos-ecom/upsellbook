@@ -1,0 +1,601 @@
+﻿$fr_keys = @(
+    'lang="fr"'
+    '<title>Offre Exclusive</title>'
+    'Commande presque terminée...'
+    'Commande Presque Terminée...'
+    'ATTENDEZ ! Votre commande n''est pas encore terminée...'
+    'Obtenez le <span style="font-weight: 400;">Livre Audio</span>'
+    'Recevez 3 Bonus Supplémentaires'
+    'GRATUITEMENT !'
+    '**Offre Spéciale Uniquement Pour Les Nouveaux Membres**'
+    'Avant de finaliser votre commande, j''ai une petite question pour vous...'
+    'Vous avez déjà obtenu notre guide complet qui vous montre exactement comment contrôler votre alimentation'
+    ', sans renoncer aux aliments que vous aimez.'
+    ' après 60 ans'
+    'Mais et si vous pouviez tout absorber plus facilement ? Et si vous pouviez littéralement <em>écouter</em> le guide où que vous alliez, sans avoir à forcer vos yeux ou à interrompre votre routine ?'
+    'En ce moment, vous avez l''opportunité exclusive d''améliorer votre commande et d''obtenir la version complète en <strong>Livre audio de'
+    'Au lieu de devoir trouver un moment de calme pour vous asseoir et lire, il vous suffit d''appuyer sur « lecture » et de commencer immédiatement à absorber ces directives transformatrices. Que vous vous détendiez dans votre fauteuil, que vous fassiez une douce promenade ou que vous vous occupiez des tâches ménagères...'
+    'Tout le contenu est enregistré avec une narration professionnelle et agréable, afin que vous puissiez adopter le meilleur mode de vie sain sans aucun effort.'
+    '✓ 100% Adapté aux Débutants & Conçu pour les Seniors'
+    'Découvrez ce que vous obtenez pour seulement 29€ aujourd''hui :'
+    'Écoutez n''importe où, n''importe quand. Parfait pour reposer vos yeux et absorber les connaissances sans stress.'
+    'Bonus n° 1 : Communauté privée (Valeur 97€)'
+    'Vous n''êtes pas seul(e). Bénéficiez d''un accès rapide pour échanger vos expériences avec d''autres personnes partageant les mêmes objectifs.'
+    'Bonus n° 2 : Audios de Recettes Guidées (Valeur 147€)'
+    'Écoutez pas à pas des recettes incroyables dans la cuisine, en étant guidé facilement tout au long du processus.'
+    'Bonus n° 3 : Accès à vie à l''application (Valeur 19€/mois)'
+    'Gardez tout votre guide dans votre poche. Facile à utiliser, super accessible et totalement GRATUIT aujourd''hui.'
+    'Ceci est une offre unique.'
+    'Dès que vous quitterez cette page, ces bonus disparaîtront et le Livre Audio reviendra à son prix normal de 197€.'
+    'Puisque vous êtes nouveau ici, vous ajoutez ce forfait complet pour <strong>un seul paiement de 29€ !</strong>'
+    'Garantie de remboursement de 30 jours'
+    'Garantie de Remboursement de 30 Jours'
+    'Paiement sécurisé • Crypté'
+    'Paiement sécurisé • Crypté'
+    'Mise à jour vérifiée'
+    'Mise à jour vérifiée'
+    'Page de Commande Sécurisée'
+    'Page de Commande Sécurisée'
+    'Politique de Confidentialité'
+    'Termes et Conditions'
+    '''Recettes Riches en Protéines'''
+    'Livre Audio Complet des Recettes Protéinées'
+    'Livre Audio Complet de Meal Prep et Perte de Poids'
+    '''Régime Complet pour Combattre le Foie Gras'''
+    '''Recettes pour le Foie Gras'''
+    'Livre Audio Complet du Régime Foie Gras'
+    'Livre Audio Complet de Recettes pour le Foie'
+    '''Régime Complet pour Combattre le Diabète'''
+    'Livre Audio Complet des Recettes pour le Diabète'
+    '⚠️ NE FERMEZ PAS CETTE PAGE !'
+    'Obtenez le Livre Audio Avec Une'
+    'Remise Exclusive'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet des Recettes Protéinées + Audios de Recettes Pas à Pas</strong>...'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet de Recettes & Meal Prep + Audios de Recettes Pas à Pas</strong>...'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet pour Nettoyer le Foie + Audios de Recettes Pas à Pas</strong>...'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet de Recettes pour le Diabète + Audios de Recettes Pas à Pas</strong>...'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet de Meal Prep + Audios de Recettes Pas à Pas</strong>...'
+    'Pour rendre cette offre irrésistible, <strong>j''ai supprimé l''accès à la communauté privée</strong> (ce qui réduit mes coûts) pour vous offrir le <strong>Livre Audio Complet du Régime + Audios de Recettes Pas à Pas</strong>...'
+    'Pour un paiement unique de seulement 19€ !'
+    '*Cliquez sur le bouton ci-dessous pour ajouter cette réduction immédiate à votre commande sécurisée.'
+    '"Le livre audio a tout changé pour moi !"'
+    '"Ma vue n''est plus la même, il m''était donc difficile de lire sur un écran. Ce livre audio m''a permis d''écouter des conseils pratiques sur la meilleure façon de cuisiner des protéines et des glucides. Préparer des repas est maintenant devenu très simple !"'
+    '"Ces conseils valent chaque centime des 29€."'
+    '"J''hésitais, mais les conseils quotidiens et les audios sont formidables. Écouter les recettes au lieu de les lire a changé ma routine. Les recettes riches en protéines m''ont donné beaucoup d''énergie !"'
+    '"Ma vue n''est plus la même, lire sur un écran était difficile. Ce livre audio m''a permis d''écouter toutes les idées de préparation de repas sur le chemin du travail. Commencer ma rééducation alimentaire est devenu super simple !"'
+    '"J''hésitais, mais les conseils nutritionnels quotidiens sont merveilleux. Écouter le pas à pas sur la façon de préparer mes repas de la semaine en audio a changé mon organisation de temps. Je recommande vivement !"'
+    '"Ma vue n''est plus la même, lire sur l''écran du téléphone était difficile. Ce Livre Audio m''a permis de fermer les yeux et d''écouter simplement les recettes protéinées. Étonnamment pratique et facile à appliquer !"'
+    '"Les connaissances de cet audio valent chaque centime des 29€."'
+    '"J''hésitais à acheter le livre audio seul, mais le contenu est fantastique. Écouter les explications nutritionnelles en cuisinant m''a énormément aidé à contrôler ma glycémie de manière légère et sans effort. Je recommande vivement !"'
+    '"Ma vue n''est plus la même, il m''était donc difficile de lire sur un écran. Ce livre audio m''a permis d''écouter des méthodes pratiques pour prendre soin de mon foie. Prendre soin de ma santé est maintenant devenu très simple !"'
+    '"J''hésitais, mais les conseils audio sont formidables. Écouter les recettes recommandées le matin a changé ma façon de manger. Les niveaux de mes enzymes hépatiques se sont même améliorés !"'
+    '"Ma vue n''est plus la même, il m''était donc difficile de lire sur un écran. Ce livre audio m''a permis de reposer mes yeux et d''écouter simplement de vrais enseignements nutritionnels. Gérer le diabète est maintenant devenu super simple et pratique !"'
+    '"J''hésitais, mais les conseils quotidiens dans le groupe et les audios sont formidables. Écouter les recettes à voix haute au lieu de me concentrer sur un manuel a rapidement changé ma routine en cuisine de manière positive. Je recommande vivement."'
+    'Livre Audio Complet de Meal Prep'
+    '"Ma vue n''est plus la même, lire sur l''écran du téléphone était difficile. Ce Livre Audio m''a permis d''écouter simplement les idées de Meal Prep en fermant les yeux sur le canapé. Très pratique pour commencer à perdre du poids sans complication !"'
+    '"Ma vue n''est plus la même, lire sur l''écran du téléphone était difficile. Ce Livre Audio m''a permis d''écouter simplement les recettes appropriées pour ceux qui ont le foie gras. Très pratique et réconfortant !"'
+    'Livre Audio Complet du Régime'
+    'Livre Audio Complet du Régime + Audios'
+
+)
+
+$italiano = @(
+    'lang="it"',
+    '<title>Offerta Esclusiva</title>',
+    "Ordine quasi completato...",
+    "Ordine Quasi Completato…",
+    "ASPETTA! Il tuo ordine non è ancora completo...",
+    'Ottieni l''<span style="font-weight: 400;">Audiolibro</span>',
+    "Ricevi 3 Bonus Aggiuntivi",
+    "GRATIS!",
+    "**Offerta Speciale Solo Per I Nuovi Membri**",
+    "Prima di finalizzare il tuo ordine, ho una piccola domanda per te...",
+    "Hai già assicurato la nostra guida completa che ti mostra esattamente come controllare la tua alimentazione",
+    ", senza rinunciare ai cibi che ami.",
+    " dopo i 60 anni",
+    "Ma e se potessi assorbire tutto più facilmente? E se, letteralmente, potessi <em>ascoltare</em> la guida ovunque tu vada, senza dover sforzare la vista o interrompere la tua routine?",
+    "Proprio ora, hai l'opportunità esclusiva di migliorare il tuo ordine e ottenere la versione completa in <strong>Audiolibro di",
+    "Invece di dover trovare un momento tranquillo per sederti e leggere, premi semplicemente 'play' e inizia immediatamente ad assorbire queste indicazioni trasformative. Che tu stia rilassandoti in poltrona, facendo una leggera passeggiata o occupandoti delle faccende di casa...",
+    "Tutto il contenuto è registrato con una narrazione professionale e piacevole, affinché tu possa adottare il miglior stile di vita sano senza alcuno sforzo.",
+    "✓ 100% Adatto ai Principianti & Sviluppato per la Terza Età",
+    "Guarda cosa ottieni per soli 29€ oggi:",
+    "Ascolta ovunque, in qualsiasi momento. Perfetto per riposare gli occhi e assorbire la conoscenza senza stress.",
+    "Bonus n° 1: Comunità privata (Valore 97€)",
+    "Non sei solo/a. Ottieni accesso rapido per scambiare esperienze con chi ha obiettivi simili ai tuoi.",
+    "Bonus n° 2: Audio di Ricette Guidate (Valore 147€)",
+    "Ascolta il passo dopo passo di ricette incredibili in cucina, venendo guidato durante l'intero processo in modo semplice.",
+    "Bonus n° 3: Accesso a vita all'app (Valore 19€/mese)",
+    "Tieni tutta la tua guida in tasca. Facile da usare, super accessibile e totalmente GRATIS oggi.",
+    "Questa è un'offerta unica.",
+    "Non appena esci da questa pagina, questi bonus scompariranno e l'Audiolibro tornerà al suo prezzo normale di 197€.",
+    "Poiché sei nuovo qui, aggiungi questo pacchetto completo per <strong>un unico pagamento di 29€!</strong>",
+    "Garanzia di rimborso di 30 giorni",
+    "Garanzia di Rimborso di 30 Giorni",
+    "Pagamento sicuro • Crittografato",
+    "Pagamento sicuro • Pagamento crittografato",
+    "Aggiornamento verificato",
+    "Miglioramento Verificato",
+    "Pagina di Ordine Sicura",
+    "Pagina di ordine sicura",
+    "Informativa sulla Privacy",
+    "Termini e Condizioni",
+    "'Ricette Ricche di Proteine'",
+    "Audiolibro Completo delle Ricette Proteiche",
+    "Audiolibro Completo di Meal Prep e Dimagrimento",
+    "'Dieta Completa per Combattere il Fegato Grasso'",
+    "'Ricette per il Fegato Grasso'",
+    "Audiolibro Completo della Dieta Per Fegato Grasso",
+    "Audiolibro Completo di Ricette per il Fegato",
+    "'Dieta Completa per Combattere il Diabete'",
+    "Audiolibro Completo delle Ricette per Diabete",
+    "⚠️ NON CHIUDERE QUESTA PAGINA!",
+    "Prendi l'Audiolibro Con Uno",
+    "Sconto Esclusivo",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo delle Ricette Proteiche + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo delle Ricette & Meal Prep + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo per Pulire il Fegato + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo di Ricette per il Diabete + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo di Meal Prep + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per rendere questa offerta irresistibile, <strong>ho rimosso l'accesso alla comunità privata</strong> (il che riduce i miei costi) per consegnarti l'<strong>Audiolibro Completo della Dieta + Audio di Ricette Passo dopo Passo</strong>...",
+    "Per un pagamento unico di soli 19€!",
+    "*Clicca sul pulsante qui sotto per aggiungere questo sconto immediato al tuo ordine sicuro.",
+    '"L''audiolibro ha cambiato tutto per me!"',
+    '"La mia vista non è più la stessa, quindi leggere sullo schermo era difficile. Questo audiolibro mi ha permesso di ascoltare gli insegnamenti pratici su come cucinare proteine e carboidrati nel modo migliore. Preparare i pasti ora è diventato super semplice!"',
+    '"Questi consigli valgono ogni centesimo dei 29€."',
+    '"Ero in dubbio, ma i consigli quotidiani e gli audio sono meravigliosi. Ascoltare le ricette invece di leggere ha cambiato la mia routine. Le ricette ad alto contenuto proteico mi hanno dato molta energia!"',
+    '"La mia vista non è più la stessa, quindi leggere sullo schermo era difficile. Questo audiolibro mi ha permesso di ascoltare tutte le idee di preparazione dei pasti mentre vado al lavoro. Iniziare la mia rieducazione alimentare ora è diventato super semplice!"',
+    '"Ero in dubbio, ma i consigli nutrizionali quotidiani sono meravigliosi. Ascoltare il passo dopo passo su come preparare i miei pasti per la settimana in audio ha cambiato la mia organizzazione del tempo. Lo consiglio vivamente!"',
+    '"La mia vista non è più la stessa, quindi leggere lo schermo del cellulare era difficile. Questo Audiolibro mi ha permesso di chiudere gli occhi e ascoltare semplicemente le ricette proteiche. Sorprendentemente pratico e facile da applicare!"',
+    '"La conoscenza di questo audio vale ogni centesimo dei 29€."',
+    '"Ero in dubbio se acquistare l''audiolibro da solo, ma il contenuto è fantastico. Ascoltare le spiegazioni nutrizionali mentre cucino mi ha aiutato immensamente a controllare il glucosio in modo leggero e senza sforzo. Lo consiglio vivamente!"',
+    '"La mia vista non è più la stessa, quindi leggere sullo schermo era difficile. Questo audiolibro mi ha permesso di ascoltare i metodi pratici per prendermi cura del fegato. Prendersi cura della mia salute ora è diventato super semplice!"',
+    '"Ero in dubbio, ma i consigli dell''audio sono meravigliosi. Ascoltare le ricette raccomandate al mattino ha cambiato il mio modo di mangiare. I livelli dei miei enzimi epatici sono persino migliorati!"',
+    '"La mia vista non è più la stessa, quindi leggere sullo schermo era difficile. Questo audiolibro mi ha permesso di riposare gli occhi e ascoltare semplicemente i veri insegnamenti di nutrizione. Gestire il diabete ora è diventato super semplice e pratico!"',
+    '"Ero in dubbio, ma i consigli quotidiani nel gruppo e gli audio sono meravigliosi. Ascoltare le ricette ad alta voce invece di concentrarsi su un manuale ha presto cambiato in positivo la mia routine in cucina. Lo consiglio vivamente."',
+    "Audiolibro Completo di Meal Prep",
+    '"La mia vista non è più la stessa, quindi leggere lo schermo del cellulare era difficile. Questo Audiolibro mi ha permesso semplicemente di ascoltare le idee di Meal Prep chiudendo gli occhi sul divano. Molto pratico per iniziare a perdere peso senza complicazioni!"',
+    '"La mia vista non è più la stessa, quindi leggere lo schermo del cellulare era difficile. Questo Audiolibro mi ha permesso semplicemente di ascoltare le ricette adatte a chi ha il fegato grasso. Molto pratico e confortante!"',
+    "Audiolibro Completo della Dieta",
+    "Audiolibro Completo della Dieta + Audio"
+)
+
+$alemao = @(
+    'lang="de"',
+    '<title>Exklusives Angebot</title>',
+    "Bestellung fast abgeschlossen...",
+    "Bestellung Fast Abgeschlossen…",
+    "WARTEN SIE! Ihre Bestellung ist noch nicht vollständig...",
+    'Holen Sie sich das <span style="font-weight: 400;">Hörbuch</span>',
+    "Erhalten Sie 3 Zusätzliche Boni",
+    "KOSTENLOS!",
+    "**Sonderangebot Nur Für Neue Mitglieder**",
+    "Bevor Sie Ihre Bestellung abschließen, habe ich noch eine kleine Frage an Sie...",
+    "Sie haben sich bereits unseren kompletten Leitfaden gesichert, der Ihnen genau zeigt, wie Sie Ihre Ernährung kontrollieren können",
+    ", ohne auf die Lebensmittel verzichten zu müssen, die Sie lieben.",
+    " nach den 60ern",
+    "Aber was wäre, wenn Sie alles viel einfacher aufnehmen könnten? Was wäre, wenn Sie sich den Leitfaden buchstäblich <em>anhören</em> könnten, wo immer Sie auch hingehen, ohne Ihre Augen anstrengen oder Ihre Routine unterbrechen zu müssen?",
+    "Genau jetzt haben Sie die exklusive Gelegenheit, Ihre Bestellung aufzuwerten und die Vollversion als <strong>Hörbuch von",
+    "Anstatt einen ruhigen Moment finden zu müssen, um sich hinzusetzen und zu lesen, drücken Sie einfach auf 'Play' und beginnen Sie sofort, diese transformierenden Anweisungen aufzunehmen. Ob Sie sich im Sessel entspannen, einen sanften Spaziergang machen oder sich um die Hausarbeit kümmern...",
+    "Der gesamte Inhalt ist mit einer professionellen und angenehmen Stimme aufgenommen, damit Sie mühelos den besten gesunden Lebensstil annehmen können.",
+    "✓ 100% Anfängerfreundlich & Für Senioren Entwickelt",
+    "Sehen Sie, was Sie heute für nur 29€ erhalten:",
+    "Hören Sie überall und jederzeit zu. Perfekt, um die Augen auszuruhen und Wissen ohne Stress aufzunehmen.",
+    "Bonus Nr. 1: Private Community (Wert 97€)",
+    "Sie sind nicht allein. Erhalten Sie schnellen Zugang, um Erfahrungen mit anderen zu teilen, die ähnliche Ziele wie Sie haben.",
+    "Bonus Nr. 2: Geführte Rezept-Audios (Wert 147€)",
+    "Hören Sie sich die Schritt-für-Schritt-Anleitungen unglaublicher Rezepte in der Küche an und lassen Sie sich den gesamten Prozess über leicht führen.",
+    "Bonus Nr. 3: Lebenslanger Zugang zur App (Wert 19€/Monat)",
+    "Haben Sie Ihren gesamten Leitfaden in der Tasche. Einfach zu bedienen, super zugänglich und heute völlig KOSTENLOS.",
+    "Dies ist ein einmaliges Angebot.",
+    "Sobald Sie diese Seite verlassen, verschwinden diese Boni und das Hörbuch kehrt zu seinem normalen Preis von 197€.",
+    "Da Sie neu hier sind, fügen Sie dieses Komplettpaket für <strong>eine einmalige Zahlung von 29€</strong> hinzu!",
+    "30 Tage Geld-zurück-Garantie",
+    "30 Tage Geld-Zurück-Garantie",
+    "Sichere Zahlung • Verschlüsselt",
+    "Sichere Zahlung • Verschlüsselt",
+    "Update verifiziert",
+    "Verbesserung Verifiziert",
+    "Sichere Bestellseite",
+    "Sichere Bestellseite",
+    "Datenschutzerklärung",
+    "Allgemeine Geschäftsbedingungen",
+    "'Proteinreiche Rezepte'",
+    "Komplettes Hörbuch der Proteinrezepte",
+    "Komplettes Hörbuch für Meal Prep und Gewichtsverlust",
+    "'Komplette Diät zur Bekämpfung der Fettleber'",
+    "'Rezepte für die Fettleber'",
+    "Komplettes Hörbuch der Diät für Fettleber",
+    "Komplettes Hörbuch der Rezepte für die Leber",
+    "'Komplette Diät zur Bekämpfung von Diabetes'",
+    "Komplettes Hörbuch der Diabetes-Rezepte",
+    "⚠️ SCHLIESSEN SIE DIESE SEITE NICHT!",
+    "Holen Sie Sich Das Hörbuch Mit Einem",
+    "Exklusiven Rabatt",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch der Proteinrezepte + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch der Rezepte & Meal Prep + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch zur Reinigung der Leber + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch der Diabetes-Rezepte + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch für Meal Prep + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Um dieses Angebot unwiderstehlich zu machen, <strong>habe ich den Zugang zur privaten Community entfernt</strong> (was meine Kosten senkt), um Ihnen das <strong>Komplette Hörbuch der Diät + Schritt-für-Schritt Rezept-Audios</strong> zu liefern...",
+    "Für eine einmalige Zahlung von nur 19€!",
+    "*Klicken Sie auf den Button unten, um diesen sofortigen Rabatt zu Ihrer sicheren Bestellung hinzuzufügen.",
+    '"Das Hörbuch hat alles für mich verändert!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Bildschirm schwierig. Dieses Hörbuch hat es mir ermöglicht, mir praktische Tipps anzuhören, wie man Proteine und Kohlenhydrate am besten zubereitet. Die Zubereitung der Mahlzeiten ist jetzt super einfach geworden!"',
+    '"Diese Tipps sind jeden Cent der 29€ wert."',
+    '"Ich war skeptisch, aber die täglichen Tipps und Audios sind wunderbar. Sich die Rezepte anzuhören anstatt sie zu lesen, hat meine Routine verändert. Die proteinreichen Rezepte haben mir viel Energie gegeben!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Bildschirm schwierig. Dieses Hörbuch hat es mir ermöglicht, mir alle Meal Prep-Ideen auf dem Weg zur Arbeit anzuhören. Mit meiner Ernährungsumstellung zu beginnen ist jetzt super einfach geworden!"',
+    '"Ich war skeptisch, aber die täglichen Ernährungstipps sind wunderbar. Mir Schritt für Schritt anzuhören, wie ich meine Mahlzeiten für die Woche vorbereite, hat mein Zeitmanagement verändert. Ich kann es sehr empfehlen!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Handydisplay schwierig. Dieses Hörbuch hat es mir ermöglicht, die Augen zu schließen und einfach den Proteinrezepten zuzuhören. Überraschend praktisch und einfach anzuwenden!"',
+    '"Das Wissen in diesem Audio ist jeden Cent der 29€ wert."',
+    '"Ich war mir nicht sicher, ob ich das Hörbuch einzeln kaufen sollte, aber der Inhalt ist fantastisch. Den Ernährungserklärungen beim Kochen zuzuhören, hat mir ungemein geholfen, meinen Blutzucker leicht und mühelos zu kontrollieren. Ich kann es sehr empfehlen!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Bildschirm schwierig. Dieses Hörbuch hat es mir ermöglicht, mir praktische Methoden zur Pflege meiner Leber anzuhören. Auf meine Gesundheit zu achten, ist jetzt super einfach geworden!"',
+    '"Ich war skeptisch, aber die Audio-Tipps sind wunderbar. Sich morgens die empfohlenen Rezepte anzuhören, hat meine Art zu essen verändert. Die Werte meiner Leberenzyme haben sich sogar verbessert!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Bildschirm schwierig. Dieses Hörbuch hat es mir ermöglicht, meine Augen auszuruhen und mir einfach die wahren Lehren der Ernährung anzuhören. Sich um den Diabetes zu kümmern, ist jetzt super einfach und praktisch geworden!"',
+    '"Ich war skeptisch, aber die täglichen Tipps in der Gruppe und die Audios sind wunderbar. Sich die Rezepte laut anzuhören, anstatt sich auf ein Handbuch zu konzentrieren, hat meine Routine in der Küche schnell zum Positiven verändert. Ich kann es sehr empfehlen."',
+    "Komplettes Hörbuch für Meal Prep",
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Handydisplay schwierig. Dieses Hörbuch hat es mir ermöglicht, einfach den Meal Prep-Ideen zuzuhören, während ich mit geschlossenen Augen auf dem Sofa liege. Sehr praktisch, um ohne Komplikationen mit dem Abnehmen zu beginnen!"',
+    '"Meine Sehkraft ist nicht mehr dieselbe, also war das Lesen auf dem Handydisplay schwierig. Dieses Hörbuch hat es mir ermöglicht, einfach den passenden Rezepten für Menschen mit Fettleber zuzuhören. Sehr praktisch und beruhigend!"',
+    "Komplettes Hörbuch der Diät",
+    "Komplettes Hörbuch der Diät + Audios"
+)
+
+$arabe = @(
+    'lang="ar"',
+    '<title>عرض حصري</title>',
+    "اكتمل الطلب تقريبًا...",
+    "الطلب شبه مكتمل...",
+    "انتظر! طلبك لم يكتمل بعد...",
+    'احصل على <span style="font-weight: 400;">الكتاب الصوتي</span>',
+    "احصل على 3 مكافآت إضافية",
+    "مجاناً!",
+    "**عرض خاص للأعضاء الجدد فقط**",
+    "قبل إتمام طلبك، لدي سؤال صغير لك...",
+    "لقد حصلت بالفعل على دليلنا الشامل الذي يوضح لك بالضبط كيف تتحكم في نظامك الغذائي",
+    "، دون التخلي عن الأطعمة التي تحبها.",
+    " بعد الستين",
+    "ولكن ماذا لو تمكنت من استيعاب كل شيء بسهولة أكبر؟ ماذا لو كان بإمكانك <em>الاستماع</em> إلى الدليل أينما ذهبت، دون الحاجة إلى إجهاد عينيك أو مقاطعة روتينك؟",
+    "الآن، لديك فرصة حصرية لترقية طلبك والحصول على النسخة الكاملة كـ <strong>كتاب صوتي من",
+    "بدلاً من الاضطرار إلى إيجاد لحظة هادئة للجلوس والقراءة، ما عليك سوى النقر على 'تشغيل' والبدء فوراً في استيعاب هذه التوجيهات التحويلية. سواء كنت تسترخي في كرسيك، أو تأخذ نزهة خفيفة، أو تقوم بالأعمال المنزلية...",
+    "تم تسجيل المحتوى بالكامل بسرد احترافي وممتع، حتى تتمكن من تبني أفضل نمط حياة صحي دون أي جهد.",
+    "✓ 100% مناسب للمبتدئين ومُصمم لكبار السن",
+    "انظر ماذا ستحصل مقابل 29 يورو فقط اليوم:",
+    "استمع في أي مكان وفي أي وقت. مثالي لإراحة عينيك واستيعاب المعرفة دون توتر.",
+    "المكافأة رقم 1: مجتمع خاص (القيمة 97 يورو)",
+    "أنت لست وحدك. احصل على وصول سريع لتبادل الخبرات مع أولئك الذين لديهم أهداف مماثلة لأهدافك.",
+    "المكافأة رقم 2: تسجيلات صوتية لوصفات موجهة (القيمة 147 يورو)",
+    "استمع إلى خطوة بخطوة لوصفات مذهلة في المطبخ، مع إرشادك خلال العملية برمتها بسهولة.",
+    "المكافأة رقم 3: وصول مدى الحياة إلى التطبيق (القيمة 19 يورو / شهر)",
+    "احتفظ بدليلك بالكامل في جيبك. سهل الاستخدام، ويمكن الوصول إليه بسهولة ومجاني تماماً اليوم.",
+    "هذا عرض لمرة واحدة.",
+    "بمجرد مغادرة هذه الصفحة، ستختفي هذه المكافآت وسيعود الكتاب الصوتي إلى سعره الطبيعي وهو 197 يورو.",
+    "نظراً لأنك جديد هنا، أضف هذه الحزمة الكاملة مقابل <strong>دفعة واحدة بقيمة 29 يورو!</strong>",
+    "ضمان استرداد الأموال لمدة 30 يومًا",
+    "ضمان استرداد الأموال لمدة 30 يومًا",
+    "دفع آمن • مشفر",
+    "دفع آمن • مشفر",
+    "تم التحقق من التحديث",
+    "تم التحقق من التحسين",
+    "صفحة طلب آمنة",
+    "صفحة طلب آمنة",
+    "سياسة الخصوصية",
+    "الشروط والأحكام",
+    "'وصفات غنية بالبروتين'",
+    "الكتاب الصوتي الكامل لوصفات البروتين",
+    "الكتاب الصوتي الكامل لتجهيز الوجبات وفقدان الوزن",
+    "'نظام غذائي كامل لمكافحة دهون الكبد'",
+    "'وصفات لدهون الكبد'",
+    "الكتاب الصوتي الكامل لنظام دهون الكبد الغذائي",
+    "الكتاب الصوتي الكامل لوصفات الكبد",
+    "'نظام غذائي كامل لمكافحة مرض السكري'",
+    "الكتاب الصوتي الكامل لوصفات مرض السكري",
+    "⚠️ لا تغلق هذه الصفحة!",
+    "احصل على الكتاب الصوتي مع",
+    "خصم حصري",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل لوصفات البروتين + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل للوصفات وتجهيز الوجبات + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل لتنظيف الكبد + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل لوصفات مرض السكري + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل لتجهيز الوجبات + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لجعل هذا العرض لا يقاوم، <strong>قمت بإزالة الوصول إلى المجتمع الخاص</strong> (مما يقلل من تكاليفي) لأقدم لك <strong>الكتاب الصوتي الكامل للنظام الغذائي + تسجيلات الوصفات خطوة بخطوة</strong>...",
+    "لدفعة واحدة بقيمة 19 يورو فقط!",
+    "*انقر على الزر أدناه لإضافة هذا الخصم الفوري إلى طلبك الآمن.",
+    '"لقد غير الكتاب الصوتي كل شيء بالنسبة لي!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على الشاشة أمراً صعباً. أتاح لي هذا الكتاب الصوتي الاستماع إلى الدروس العملية حول أفضل طريقة لطهي البروتينات والكربوهيدرات. أصبح تحضير الوجبات الآن في غاية البساطة!"',
+    '"هذه النصائح تستحق كل سنت من الـ 29 يورو."',
+    '"كنت متردداً، لكن النصائح اليومية والتسجيلات الصوتية رائعة. الاستماع إلى الوصفات بدلاً من قراءتها غير روتيني. الوصفات الغنية بالبروتين أعطتني الكثير من الطاقة!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على الشاشة أمراً صعباً. أتاح لي هذا الكتاب الصوتي الاستماع إلى جميع أفكار تحضير الوجبات أثناء ذهابي إلى العمل. أصبح البدء في إعادة تثقيفي الغذائي الآن أمراً في غاية البساطة!"',
+    '"كنت متردداً، لكن النصائح الغذائية اليومية رائعة. الاستماع خطوة بخطوة إلى كيفية إعداد وجباتي للأسبوع بالصوت غير تنظيمي للوقت. أوصي به بشدة!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على شاشة الهاتف أمراً صعباً. أتاح لي هذا الكتاب الصوتي إغلاق عيني ببساطة والاستماع إلى وصفات البروتين. عملي وسهل التطبيق بشكل مدهش!"',
+    '"المعرفة الموجودة في هذا الصوت تستحق كل سنت من الـ 29 يورو."',
+    '"كنت متردداً في شراء الكتاب الصوتي بمفرده، لكن المحتوى رائع. الاستماع إلى التفسيرات الغذائية أثناء الطهي ساعدني بشكل هائل في التحكم في الجلوكوز بطريقة خفيفة وبدون مجهود. أوصي به بشدة!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على الشاشة أمراً صعباً. أتاح لي هذا الكتاب الصوتي الاستماع إلى الطرق العملية للعناية بالكبد. أصبحت العناية بصحتي الآن في غاية البساطة!"',
+    '"كنت متردداً، لكن النصائح الصوتية رائعة. الاستماع إلى الوصفات الموصى بها في الصباح غير طريقتي في تناول الطعام. حتى مستويات إنزيمات الكبد لدي قد تحسنت!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على الشاشة أمراً صعباً. أتاح لي هذا الكتاب الصوتي إراحة عيني والاستماع فقط إلى الدروس الغذائية الحقيقية. أصبحت العناية بمرض السكري الآن في غاية البساطة والعملية!"',
+    '"كنت متردداً، لكن النصائح اليومية في المجموعة والتسجيلات الصوتية رائعة. الاستماع إلى الوصفات بصوت عالٍ بدلاً من التركيز على دليل غير روتيني في المطبخ بشكل إيجابي وسريع. أوصي به بشدة."',
+    "الكتاب الصوتي الكامل لتجهيز الوجبات",
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على شاشة الهاتف أمراً صعباً. أتاح لي هذا الكتاب الصوتي الاستماع ببساطة إلى أفكار تجهيز الوجبات بينما أغلق عيني على الأريكة. عملي جداً لبدء فقدان الوزن دون تعقيد!"',
+    '"لم تعد رؤيتي كما كانت، لذا كان القراءة على شاشة الهاتف أمراً صعباً. أتاح لي هذا الكتاب الصوتي الاستماع ببساطة إلى الوصفات المناسبة لأولئك الذين يعانون من الكبد الدهني. عملي جداً ومريح!"',
+    "الكتاب الصوتي الكامل للنظام الغذائي",
+    "الكتاب الصوتي الكامل للنظام الغذائي + تسجيلات صوتية"
+)
+
+$espanhol = @(
+    'lang="es"',
+    '<title>Oferta Exclusiva</title>',
+    "Pedido casi completado...",
+    "Pedido Casi Completado…",
+    "¡ESPERA! Tu pedido aún no está completo...",
+    'Obtén el <span style="font-weight: 400;">Audiolibro</span>',
+    "Recibe 3 Bonos Adicionales",
+    "¡GRATIS!",
+    "**Oferta Especial Solo Para Nuevos Miembros**",
+    "Antes de finalizar tu pedido, tengo una pequeña pregunta para ti...",
+    "Ya has asegurado nuestra guía completa que te muestra exactamente cómo controlar tu alimentación",
+    ", sin renunciar a las comidas que amas.",
+    " después de los 60",
+    "Pero, ¿y si pudieras absorber todo con más facilidad? ¿Y si, literalmente, pudieras <em>escuchar</em> la guía a donde quiera que vayas, sin necesidad de forzar la vista o detener tu rutina?",
+    "En este momento, tienes la oportunidad exclusiva de mejorar tu pedido y obtener la versión completa en <strong>Audiolibro de",
+    "En lugar de tener que encontrar un momento tranquilo para sentarte y leer, simplemente presiona 'play' y comienza de inmediato a absorber estas directrices transformadoras. Ya sea relajándote en el sillón, en una suave caminata o lidiando con los quehaceres de la casa...",
+    "Todo el contenido está grabado con una narración profesional y agradable, para que adoptes el mejor estilo de vida saludable sin ningún esfuerzo.",
+    "✓ 100% Adaptado para Principiantes & Desarrollado para la Tercera Edad",
+    "Mira lo que te llevas por solo 29€ hoy:",
+    "Escucha en cualquier lugar, en cualquier momento. Perfecto para descansar los ojos y absorber el conocimiento sin estrés.",
+    "Bono nº 1: Comunidad privada (Valor 97€)",
+    "No estás solo/a. Ten acceso rápido para intercambiar experiencias con quienes tienen objetivos parecidos a los tuyos.",
+    "Bono nº 2: Audios de Recetas Guiadas (Valor 147€)",
+    "Escucha el paso a paso de recetas increíbles en la cocina, siendo guiado/a durante todo el proceso de manera fácil.",
+    "Bono nº 3: Acceso de por vida a la aplicación (Valor 19€/mes)",
+    "Mantén toda tu guía en el bolsillo. Fácil de usar, súper accesible y totalmente GRATIS hoy.",
+    "Esta es una oferta única.",
+    "En cuanto salgas de esta página, estos bonos desaparecerán y el Audiolibro volverá a su precio normal de 197€.",
+    "¡Por ser nuevo por aquí, agregas este paquete completo por <strong>un único pago de 29€!</strong>",
+    "Garantía de reembolso de 30 días",
+    "Garantía de Reembolso de 30 Días",
+    "Pago seguro • Criptografado",
+    "Pago seguro • Pago encriptado",
+    "Actualización verificada",
+    "Mejora Verificada",
+    "Página de Pedido Segura",
+    "Página de pedido segura",
+    "Política de Privacidad",
+    "Términos y Condiciones",
+    "'Recetas Ricas en Proteína'",
+    "Audiolibro Completo de las Recetas Proteicas",
+    "Audiolibro Completo de Meal Prep y Pérdida de Peso",
+    "'Dieta Completa para Combatir el Hígado Graso'",
+    "'Recetas para el Hígado Graso'",
+    "Audiolibro Completo de Dieta Para el Hígado Graso",
+    "Audiolibro Completo de Recetas para el Hígado",
+    "'Dieta Completa para Combatir la Diabetes'",
+    "Audiolibro Completo de las Recetas para Diabetes",
+    "⚠️ ¡NO CIERRES ESTA PÁGINA!",
+    "Llévate el Audiolibro Con Un",
+    "Descuento Exclusivo",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo de las Recetas Proteicas + Audios de Recetas Paso a Paso</strong>...",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo de las Recetas & Meal Prep + Audios de Recetas Paso a Paso</strong>...",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo para Limpiar el Hígado + Audios de Recetas Paso a Paso</strong>...",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo de Recetas de Diabetes + Audios de Recetas Paso a Paso</strong>...",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo de Meal Prep + Audios de Recetas Paso a Paso</strong>...",
+    "Para hacer esta oferta irresistible, <strong>he eliminado el acceso a la comunidad privada</strong> (lo que reduce mis costos) para entregarte el <strong>Audiolibro Completo de la Dieta + Audios de Recetas Paso a Paso</strong>...",
+    "¡Por un pago único de solo 19€!",
+    "*Haz clic en el botón de abajo para agregar este descuento inmediato a tu pedido seguro.",
+    '"¡El audiolibro cambió todo para mí!"',
+    '"Mi vista ya no es la misma, por lo que leer en la pantalla era difícil. Este audiolibro me permitió escuchar las enseñanzas prácticas de cómo cocinar proteínas y carbohidratos de la mejor manera. ¡Preparar las comidas ahora es súper simple!"',
+    '"Estos consejos valen cada centavo de 29€."',
+    '"Estaba en duda, pero los consejos diarios y los audios son maravillosos. Escuchar las recetas en lugar de leer cambió mi rutina. ¡Las recetas con alto contenido de proteína me dieron mucha energía!"',
+    '"Mi vista ya no es la misma, por lo que leer en la pantalla era difícil. Este audiolibro me permitió escuchar todas las ideas de preparación de comidas mientras voy al trabajo. ¡Comenzar mi reeducación alimentaria ahora es súper simple!"',
+    '"Estaba en duda, pero los consejos diarios de nutrición son maravillosos. Escuchar el paso a paso sobre cómo preparar mis comidas de la semana en audio cambió mi organización de tiempo. ¡Lo recomiendo mucho!"',
+    '"Mi vista ya no es la misma, por lo que leer la pantalla del celular era difícil. Este Audiolibro me permitió cerrar los ojos y simplemente escuchar las recetas proteicas. ¡Sorprendentemente práctico y fácil de aplicar!"',
+    '"El conocimiento de este audio vale cada centavo de los 29€."',
+    '"Estaba en duda sobre adquirir el audiolibro de forma aislada, pero el contenido es fantástico. Escuchar las explicaciones de nutrición mientras cocino me ayudó inmensamente a controlar la glucosa de forma ligera y sin esfuerzo. ¡Lo recomiendo mucho!"',
+    '"Mi vista ya no es la misma, por lo que leer en la pantalla era difícil. Este audiolibro me permitió escuchar los métodos prácticos para cuidar el hígado. ¡Cuidar de mi salud ahora es súper simple!"',
+    '"Estaba en duda, pero los consejos del audio son maravillosos. Escuchar las recetas recomendadas por la mañana cambió mi forma de alimentarme. ¡Los niveles de mis enzimas hepáticas incluso mejoraron!"',
+    '"Mi vista ya no es la misma, por lo que leer en la pantalla era difícil. Este audiolibro me permitió descansar los ojos y solo escuchar las enseñanzas reales de nutrición. ¡Cuidar de la diabetes ahora es súper simple y práctico!"',
+    '"Estaba en duda, pero los consejos diarios en el grupo y los audios son maravillosos. Escuchar las recetas en voz alta en lugar de estar enfocado en un manual cambió rápidamente mi rutina en la cocina de forma positiva. Lo recomiendo mucho."',
+    "Audiolibro Completo de Meal Prep",
+    '"Mi vista ya no es la misma, por lo que leer la pantalla del celular era difícil. Este Audiolibro me permitió simplemente escuchar las ideas de Meal Prep cerrando los ojos en el sofá. ¡Muy práctico para comenzar a adelgazar sin complicaciones!"',
+    '"Mi vista ya no es la misma, por lo que leer la pantalla del celular era difícil. Este Audiolibro me permitió simplemente escuchar las recetas adecuadas para quienes tienen hígado graso. ¡Muy práctico y reconfortante!"',
+    "Audiolibro Completo de la Dieta",
+    "Audiolibro Completo de la Dieta + Audios"
+)
+
+$holandes = @(
+    'lang="nl"',
+    '<title>Exclusieve Aanbieding</title>',
+    "Bestelling bijna afgerond...",
+    "Bestelling Bijna Afgerond…",
+    "WACHT! Uw bestelling is nog niet compleet...",
+    'Krijg het <span style="font-weight: 400;">Audioboek</span>',
+    "Ontvang 3 Extra Bonussen",
+    "GRATIS!",
+    "**Speciale Aanbieding Alleen Voor Nieuwe Leden**",
+    "Voordat u uw bestelling afrondt, heb ik een kleine vraag voor u...",
+    "U heeft onze complete gids al veiliggesteld die u precies laat zien hoe u uw voeding kunt beheersen",
+    ", zonder de voedingsmiddelen waar u van houdt op te geven.",
+    " na je 60ste",
+    "Maar wat als u alles gemakkelijker in u op zou kunnen nemen? Wat als u letterlijk naar de gids zou kunnen <em>luisteren</em> waar u ook gaat, zonder uw ogen te hoeven inspannen of uw routine te onderbreken?",
+    "Op dit moment heeft u de exclusieve kans om uw bestelling te upgraden en de volledige versie te krijgen als <strong>Audioboek van",
+    "In plaats van een rustig moment te moeten vinden om te gaan zitten en te lezen, drukt u gewoon op 'play' en begint u onmiddellijk met het in u opnemen van deze transformerende richtlijnen. Of u nu ontspant in uw stoel, een zachte wandeling maakt of huishoudelijke klusjes doet...",
+    "Alle inhoud is opgenomen met een professionele en aangename vertelling, zodat u zonder enige moeite de beste gezonde levensstijl kunt aannemen.",
+    "✓ 100% Aangepast voor Beginners & Ontwikkeld voor Senioren",
+    "Kijk wat u vandaag krijgt voor slechts 29€:",
+    "Luister overal en altijd. Perfect om uw ogen te laten rusten en kennis op te nemen zonder stress.",
+    "Bonus nr. 1: Privé community (Waarde 97€)",
+    "U bent niet alleen. Krijg snelle toegang om ervaringen uit te wisselen met mensen die soortgelijke doelen hebben als u.",
+    "Bonus nr. 2: Begeleide Recepten Audio's (Waarde 147€)",
+    "Luister naar de stapsgewijze instructies van ongelooflijke recepten in de keuken, en word gedurende het hele proces gemakkelijk begeleid.",
+    "Bonus nr. 3: Levenslange toegang tot de app (Waarde 19€/maand)",
+    "Houd uw hele gids in uw zak. Gemakkelijk te gebruiken, super toegankelijk en vandaag helemaal GRATIS.",
+    "Dit is een eenmalige aanbieding.",
+    "Zodra u deze pagina verlaat, verdwijnen deze bonussen en keert het Audioboek terug naar de normale prijs van 197€.",
+    "Omdat u hier nieuw bent, voegt u dit complete pakket toe voor <strong>een eenmalige betaling van 29€!</strong>",
+    "30 dagen geld-terug-garantie",
+    "30 Dagen Geld-Terug-Garantie",
+    "Veilige betaling • Versleuteld",
+    "Veilige betaling • Versleuteld",
+    "Update geverifieerd",
+    "Verbetering Geverifieerd",
+    "Veilige Bestelpagina",
+    "Veilige bestelpagina",
+    "Privacybeleid",
+    "Algemene Voorwaarden",
+    "'Eiwitrijke Recepten'",
+    "Compleet Audioboek van Eiwitrecepten",
+    "Compleet Audioboek van Meal Prep en Gewichtsverlies",
+    "'Compleet Dieet om Levervet te Bestrijden'",
+    "'Recepten voor Levervet'",
+    "Compleet Audioboek van het Dieet Voor Levervet",
+    "Compleet Audioboek van Recepten voor de Lever",
+    "'Compleet Dieet om Diabetes te Bestrijden'",
+    "Compleet Audioboek van Diabetes Recepten",
+    "⚠️ SLUIT DEZE PAGINA NIET!",
+    "Neem het Audioboek Met Een",
+    "Exclusieve Korting",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek van Eiwitrecepten + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek van Recepten & Meal Prep + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek om de Lever te Reinigen + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek van Diabetes Recepten + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek van Meal Prep + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Om deze aanbieding onweerstaanbaar te maken, <strong>heb ik de toegang tot de privé community verwijderd</strong> (wat mijn kosten verlaagt) om u het <strong>Complete Audioboek van het Dieet + Stapsgewijze Recepten Audio's</strong> te leveren...",
+    "Voor een eenmalige betaling van slechts 19€!",
+    "*Klik op de knop hieronder om deze onmiddellijke korting toe te voegen aan uw veilige bestelling.",
+    '"Het audioboek heeft alles voor mij veranderd!"',
+    '"Mijn zicht is niet meer hetzelfde, dus lezen op het scherm was moeilijk. Dit audioboek stelde me in staat om te luisteren naar de praktische lessen over hoe je eiwitten en koolhydraten op de beste manier kunt koken. Maaltijden bereiden is nu super simpel geworden!"',
+    '"Deze tips zijn elke cent van 29€ waard."',
+    '"Ik twijfelde, maar de dagelijkse tips en audio''s zijn geweldig. Naar de recepten luisteren in plaats van lezen veranderde mijn routine. De eiwitrijke recepten gaven me veel energie!"',
+    '"Mijn zicht is niet meer hetzelfde, dus lezen op het scherm was moeilijk. Dit audioboek stelde me in staat om naar alle meal prep ideeën te luisteren terwijl ik naar mijn werk ga. Beginnen met mijn voedingsheropvoeding is nu super simpel geworden!"',
+    '"Ik twijfelde, maar de dagelijkse voedingstips zijn geweldig. Stap voor stap luisteren naar hoe ik mijn maaltijden voor de week kan voorbereiden in audio veranderde mijn tijdorganisatie. Ik raad het ten zeerste aan!"',
+    '"Mijn zicht is niet meer hetzelfde, dus het telefoonscherm lezen was moeilijk. Dit Audioboek stelde me in staat om mijn ogen te sluiten en gewoon naar de eiwitrecepten te luisteren. Verrassend praktisch en gemakkelijk toe te passen!"',
+    '"De kennis van deze audio is elke cent van de 29€ waard."',
+    '"Ik twijfelde over het afzonderlijk aanschaffen van het audioboek, maar de inhoud is fantastisch. Luisteren naar de voedingsuitleg tijdens het koken heeft me enorm geholpen om mijn glucose op een lichte en moeiteloze manier te beheersen. Ik raad het ten zeerste aan!"',
+    '"Mijn zicht is niet meer hetzelfde, dus lezen op het scherm was moeilijk. Dit audioboek stelde me in staat om naar de praktische methoden te luisteren om voor de lever te zorgen. Voor mijn gezondheid zorgen is nu super simpel geworden!"',
+    '"Ik twijfelde, maar de audiotips zijn geweldig. ''s Ochtends naar de aanbevolen recepten luisteren veranderde mijn manier van eten. De niveaus van mijn leverenzymen zijn zelfs verbeterd!"',
+    '"Mijn zicht is niet meer hetzelfde, dus lezen op het scherm was moeilijk. Dit audioboek stelde me in staat om mijn ogen te laten rusten en gewoon te luisteren naar de echte voedingslessen. Zorgen voor diabetes is nu super simpel en praktisch geworden!"',
+    '"Ik twijfelde, maar de dagelijkse tips in de groep en de audio''s zijn geweldig. Hardop naar de recepten luisteren in plaats van gefocust te zijn op een handleiding veranderde al snel mijn routine in de keuken op een positieve manier. Ik raad het ten zeerste aan."',
+    "Compleet Audioboek van Meal Prep",
+    '"Mijn zicht is niet meer hetzelfde, dus het telefoonscherm lezen was moeilijk. Dit Audioboek stelde me in staat om gewoon naar de Meal Prep ideeën te luisteren met mijn ogen gesloten op de bank. Zeer praktisch om zonder complicaties te beginnen met afvallen!"',
+    '"Mijn zicht is niet meer hetzelfde, dus het telefoonscherm lezen was moeilijk. Dit Audioboek stelde me in staat om gewoon naar de geschikte recepten te luisteren voor degenen die een leververvetting hebben. Zeer praktisch en geruststellend!"',
+    "Compleet Audioboek van het Dieet",
+    "Compleet Audioboek van het Dieet + Audio's"
+)
+
+$polones = @(
+    'lang="pl"',
+    '<title>Ekskluzywna Oferta</title>',
+    "Zamówienie prawie ukończone...",
+    "Zamówienie Prawie Ukończone…",
+    "CZEKAJ! Twoje zamówienie nie jest jeszcze kompletne...",
+    'Zdobądź <span style="font-weight: 400;">Audiobook</span>',
+    "Odbierz 3 Dodatkowe Bonusy",
+    "ZA DARMO!",
+    "**Specjalna Oferta Tylko Dla Nowych Członków**",
+    "Zanim sfinalizujesz zamówienie, mam do Ciebie małe pytanie...",
+    "Już zabezpieczyłeś nasz kompletny przewodnik, który pokazuje dokładnie, jak kontrolować swoją dietę",
+    ", nie rezygnując z potraw, które kochasz.",
+    " po 60. roku życia",
+    "Ale co jeśli mógłbyś przyswoić wszystko łatwiej? Co jeśli mógłbyś dosłownie <em>słuchać</em> przewodnika, gdziekolwiek jesteś, bez konieczności nadwyrężania wzroku lub przerywania swojej rutyny?",
+    "Właśnie teraz masz ekskluzywną okazję, aby ulepszyć swoje zamówienie i uzyskać pełną wersję jako <strong>Audiobook",
+    "Zamiast musieć szukać spokojnej chwili, aby usiąść i poczytać, po prostu naciśnij 'play' i natychmiast zacznij przyswajać te transformujące wskazówki. Niezależnie od tego, czy relaksujesz się w fotelu, spacerujesz, czy zajmujesz się obowiązkami domowymi...",
+    "Cała zawartość jest nagrana z profesjonalną i przyjemną narracją, dzięki czemu możesz bez wysiłku przyjąć najlepszy, zdrowy styl życia.",
+    "✓ W 100% Dostosowane dla Początkujących & Zaprojektowane dla Seniorów",
+    "Zobacz, co otrzymasz dziś za jedyne 29€:",
+    "Słuchaj w dowolnym miejscu i czasie. Idealne, aby odpocząć oczom i bez stresu przyswajać wiedzę.",
+    "Bonus nr 1: Prywatna społeczność (Wartość 97€)",
+    "Nie jesteś sam. Uzyskaj szybki dostęp, aby wymieniać się doświadczeniami z osobami, które mają podobne cele do Twoich.",
+    "Bonus nr 2: Audio Przepisów z Przewodnikiem (Wartość 147€)",
+    "Słuchaj krok po kroku niesamowitych przepisów w kuchni, będąc łatwo prowadzonym przez cały proces.",
+    "Bonus nr 3: Dożywotni dostęp do aplikacji (Wartość 19€/miesiąc)",
+    "Miej cały swój przewodnik w kieszeni. Łatwy w obsłudze, super dostępny i dziś całkowicie ZA DARMO.",
+    "To jest jednorazowa oferta.",
+    "Gdy tylko opuścisz tę stronę, te bonusy znikną, a Audiobook powróci do swojej normalnej ceny 197€.",
+    "Ponieważ jesteś tu nowy, dodajesz ten kompletny pakiet za <strong>jednorazową płatność w wysokości 29€!</strong>",
+    "30-dniowa gwarancja zwrotu pieniędzy",
+    "30-Dniowa Gwarancja Zwrotu Pieniędzy",
+    "Bezpieczna płatność • Zaszyfrowana",
+    "Bezpieczna płatność • Zaszyfrowana",
+    "Aktualizacja zweryfikowana",
+    "Ulepszenie Zweryfikowane",
+    "Bezpieczna Strona Zamówienia",
+    "Bezpieczna strona zamówienia",
+    "Polityka Prywatności",
+    "Zasady i Warunki",
+    "'Przepisy Bogate w Białko'",
+    "Kompletny Audiobook z Przepisami Białkowymi",
+    "Kompletny Audiobook o Przygotowywaniu Posiłków i Odchudzaniu",
+    "'Kompletna Dieta na Walkę ze Stłuszczoną Wątrobą'",
+    "'Przepisy na Stłuszczoną Wątrobę'",
+    "Kompletny Audiobook o Diecie Na Stłuszczoną Wątrobę",
+    "Kompletny Audiobook z Przepisami na Wątrobę",
+    "'Kompletna Dieta na Walkę z Cukrzycą'",
+    "Kompletny Audiobook z Przepisami dla Cukrzyków",
+    "⚠️ NIE ZAMYKAJ TEJ STRONY!",
+    "Weź Audiobook Z",
+    "Ekskluzywnym Rabatem",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook z Przepisami Białkowymi + Audio Przepisów Krok po Kroku</strong>...",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook z Przepisami i Przygotowywaniem Posiłków + Audio Przepisów Krok po Kroku</strong>...",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook o Oczyszczaniu Wątroby + Audio Przepisów Krok po Kroku</strong>...",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook z Przepisami dla Cukrzyków + Audio Przepisów Krok po Kroku</strong>...",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook o Przygotowywaniu Posiłków + Audio Przepisów Krok po Kroku</strong>...",
+    "Aby uczynić tę ofertę nieodpartą, <strong>usunąłem dostęp do prywatnej społeczności</strong> (co zmniejsza moje koszty), aby dostarczyć Ci <strong>Kompletny Audiobook o Diecie + Audio Przepisów Krok po Kroku</strong>...",
+    "Za jednorazową opłatą zaledwie 19€!",
+    "*Kliknij przycisk poniżej, aby dodać ten natychmiastowy rabat do swojego bezpiecznego zamówienia.",
+    '"Audiobook zmienił dla mnie wszystko!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie na ekranie było trudne. Ten audiobook pozwolił mi słuchać praktycznych nauk o tym, jak najlepiej gotować białka i węglowodany. Przygotowywanie posiłków stało się teraz super proste!"',
+    '"Te wskazówki są warte każdego centa z 29€."',
+    '"Miałem wątpliwości, ale codzienne wskazówki i nagrania audio są wspaniałe. Słuchanie przepisów zamiast ich czytania zmieniło moją rutynę. Przepisy wysokobiałkowe dały mi mnóstwo energii!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie na ekranie było trudne. Ten audiobook pozwolił mi wysłuchać wszystkich pomysłów na przygotowywanie posiłków w drodze do pracy. Rozpoczęcie mojej reedukacji żywieniowej stało się teraz super proste!"',
+    '"Miałem wątpliwości, ale codzienne porady żywieniowe są wspaniałe. Słuchanie krok po kroku o tym, jak przygotować posiłki na cały tydzień z nagrania audio, zmieniło moją organizację czasu. Gorąco polecam!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie ekranu telefonu było trudne. Ten Audiobook pozwolił mi zamknąć oczy i po prostu słuchać przepisów białkowych. Zaskakująco praktyczne i łatwe do zastosowania!"',
+    '"Wiedza z tego nagrania audio jest warta każdego centa z 29€."',
+    '"Miałem wątpliwości co do zakupu samego audiobooka, ale zawartość jest fantastyczna. Słuchanie wyjaśnień żywieniowych podczas gotowania niezmiernie pomogło mi kontrolować poziom glukozy w lekki i niewymagający wysiłku sposób. Gorąco polecam!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie na ekranie było trudne. Ten audiobook pozwolił mi słuchać praktycznych metod dbania o wątrobę. Dbanie o moje zdrowie stało się teraz super proste!"',
+    '"Miałem wątpliwości, ale wskazówki audio są wspaniałe. Słuchanie polecanych przepisów rano zmieniło mój sposób odżywiania. Poziom moich enzymów wątrobowych nawet się poprawił!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie na ekranie było trudne. Ten audiobook pozwolił mi odpocząć oczom i słuchać tylko prawdziwych nauk żywieniowych. Dbanie o cukrzycę stało się teraz super proste i praktyczne!"',
+    '"Miałem wątpliwości, ale codzienne wskazówki w grupie i nagrania audio są wspaniałe. Słuchanie przepisów na głos zamiast skupiania się na podręczniku szybko i pozytywnie zmieniło moją rutynę w kuchni. Gorąco polecam."',
+    "Kompletny Audiobook o Przygotowywaniu Posiłków",
+    '"Mój wzrok nie jest już taki sam, więc czytanie z ekranu telefonu było trudne. Ten Audiobook pozwolił mi po prostu słuchać pomysłów na przygotowywanie posiłków, zamykając oczy na kanapie. Bardzo praktyczne, aby rozpocząć odchudzanie bez komplikacji!"',
+    '"Mój wzrok nie jest już taki sam, więc czytanie z ekranu telefonu było trudne. Ten Audiobook pozwolił mi po prostu słuchać odpowiednich przepisów dla osób ze stłuszczoną wątrobą. Bardzo praktyczne i pocieszające!"',
+    "Kompletny Audiobook o Diecie",
+    "Kompletny Audiobook o Diecie + Audio"
+)
+
+$langs = @{
+    "italiano" = $italiano
+    "alemao" = $alemao
+    "arabe" = $arabe
+    "espanhol" = $espanhol
+    "holandes" = $holandes
+    "polones" = $polones
+}
+
+$keysArray = $fr_keys
+
+$directories = Get-ChildItem -Directory | Where-Object { 
+    $_.Name -match "^(up|down)(diabetes|proteina|gorduranofigado|perdadepeso)(italiano|alemao|arabe|espanhol|holandes|polones)$" 
+}
+
+foreach ($dir in $directories) {
+    # Extract language from directory name using regex
+    $lang = $dir.Name -replace "^(up|down)(diabetes|proteina|gorduranofigado|perdadepeso)", ""
+    
+    if ($langs.ContainsKey($lang)) {
+        $path = "$($dir.FullName)\index.html"
+        if (Test-Path $path) {
+            $content = Get-Content $path -Raw -Encoding UTF8
+            $translations = $langs[$lang]
+            
+            for ($i = 0; $i -lt $keysArray.Length; $i++) {
+                $pt_val = $keysArray[$i]
+                $target_val = $translations[$i]
+                if ($content.Contains($pt_val) -and ($pt_val -ne "")) {
+                    $content = $content.Replace($pt_val, $target_val)
+                }
+            }
+            [System.IO.File]::WriteAllText($path, $content, (New-Object System.Text.UTF8Encoding($false)))
+            Write-Host "Translated $($dir.Name) to $lang"
+        }
+    }
+}
+
+
+
